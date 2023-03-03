@@ -10,7 +10,7 @@ public class Main {
         int number = getInputNumber();
         
         int sum = sumOfNumbers(number);
-        
+
 
 
 
@@ -19,7 +19,7 @@ public class Main {
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
     static int sumOfNumbers(int n) {
-        return 0;
+    return 0;
     }
     
     
@@ -29,13 +29,11 @@ public class Main {
 
         // This method reads the number provided using keyboard
         int num = scan.nextInt();
-
         int sum = 0;
         for (int i = 1 ;i <= num ; i++){
-            sum += i;
-            System.out.println(sum);
+            sum = sum + i;
         }
-
+        System.out.println(sum);
         // Closing Scanner after the use
         scan.close();
         return sum;
